@@ -15,3 +15,14 @@ body{
     display: inline-block;
     list-style-type: square;
 }
+button {
+    margin-top: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+    background: rgb(168, 168, 168);
+    border: rgb(78, 78, 79) ;
+  }
+  button:hover {
+    background: rgb(132, 132, 132);
+  }
