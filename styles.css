@@ -2,11 +2,16 @@ body{
     background-color: rgb(244, 244, 244);
 }
 
-.h1{
-    color: rgb(48, 48, 48);
-    margin-left: 20px;
-}
-.h2{
+.heading{
     color: rgb(78, 78, 79);
     margin-left: 20px;
+}
+#opening{
+    font-family: Tahoma;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.unordered{
+    display: inline-block;
+    list-style-type: square;
 }
