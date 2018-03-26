@@ -1,10 +1,13 @@
 body{
     background-color: rgb(244, 244, 244);
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .heading{
     color: rgb(78, 78, 79);
     margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 #opening{
     font-family: Tahoma;
@@ -16,13 +19,19 @@ body{
     list-style-type: square;
 }
 button {
+    display: block;
     margin-top: 20px;
+    margin-left: 20px;
     line-height: 20px;
     font-weight: bold;
     padding: 0 10px;
     background: rgb(168, 168, 168);
     border: rgb(78, 78, 79) ;
+    transition: all 0.5s ease 0s;
   }
   button:hover {
     background: rgb(132, 132, 132);
+    
   }
+ 
+  
