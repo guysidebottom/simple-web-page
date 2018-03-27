@@ -33,5 +33,17 @@ button {
     background: rgb(132, 132, 132);
     
   }
+  .transition {
+      width: 100px;
+      margin-left: 20px;
+      height: 10px;
+      background: rgb(78, 78, 79);
+      transition: 2s;
+      transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+
+  }
+  .transition:hover {
+      width: 800px;
+  }
  
   
